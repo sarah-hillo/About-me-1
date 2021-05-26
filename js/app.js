@@ -81,7 +81,7 @@ console.log(userHoppy);
 question3();
 
 
-/*
+function question4(){
 let userLike = prompt('do I like to travel?');
 userLike=userLike.toLowerCase();
 if (userLike=== 'yes' || userLike=== 'y'){
@@ -94,10 +94,11 @@ if (userLike=== 'yes' || userLike=== 'y'){
     alert('answer yes,y  no,n  just please')
 }
 
-console.log(userLike);
+console.log(userLike);}
+question4();
 
 
-
+/*
 let userCar = prompt('do I have a car ?');
 userCar=userCar.toLowerCase();
 
