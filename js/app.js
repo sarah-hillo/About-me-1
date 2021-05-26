@@ -31,7 +31,7 @@ console.log(myName);
 question1();
 
 
-/*
+function question2(){
 let userAge = prompt('is my age 24 ?');
 
 userAge=userAge.toLowerCase();
@@ -50,12 +50,13 @@ console.log(userAge);
     alert('answer yes,y  no,n  just please')
 }
 
-console.log(userAge);
+console.log(userAge); }
+question2();
 
 
 
 
-
+/*
 let userHoppy = prompt('do I like coding ?');
 
 userHoppy=userHoppy.toLowerCase();
