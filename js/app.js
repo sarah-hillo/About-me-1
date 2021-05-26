@@ -135,7 +135,7 @@ if (userFavour=== 'yes' || userFavour=== 'y'){
 console.log(userFavour);}
 question6();
 
-function 
+function question7(){
 let userMusic= prompt('do I like classic music ?');
 userMusic=userMusic.toLowerCase();
 
@@ -151,7 +151,8 @@ if (userMusic=== 'yes' || userMusic=== 'y'){
 }
 
 
-console.log(userMusic);
+console.log(userMusic);}
+question7();
 
 
 
@@ -282,7 +283,7 @@ console.log(userMusic);
     alert('my clubs is realmadrid , milan , chelsea');
     alert('Thank you '  +  userName  + ' We Have A Fun Time your scoer is ' + score )
 
-*/
+
 
     
 
