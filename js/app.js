@@ -1,5 +1,5 @@
 'use strict'
-
+function question1(){
 let score=0;
 
 
@@ -27,10 +27,11 @@ console.log(myName);
 
 
 console.log(myName);
+}
+question1();
 
 
-
-
+/*
 let userAge = prompt('is my age 24 ?');
 
 userAge=userAge.toLowerCase();
@@ -268,7 +269,7 @@ console.log(userMusic);
     alert('my clubs is realmadrid , milan , chelsea');
     alert('Thank you '  +  userName  + ' We Have A Fun Time your scoer is ' + score )
 
-
+*/
 
     
 
