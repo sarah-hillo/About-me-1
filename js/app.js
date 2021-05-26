@@ -1,6 +1,9 @@
 'use strict'
-function question1(){
+
 let score=0;
+
+function question1(){
+
 
 
 let userName = prompt('what is your name ?');
@@ -56,8 +59,8 @@ question2();
 
 
 
-/*
-let userHoppy = prompt('do I like coding ?');
+function question3(){
+    let userHoppy = prompt('do I like coding ?');
 
 userHoppy=userHoppy.toLowerCase();
 
@@ -74,8 +77,11 @@ console.log(userHoppy);
 }
 
 console.log(userHoppy);
+} 
+question3();
 
 
+/*
 let userLike = prompt('do I like to travel?');
 userLike=userLike.toLowerCase();
 if (userLike=== 'yes' || userLike=== 'y'){
