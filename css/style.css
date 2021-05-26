@@ -1,0 +1,52 @@
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Cursive;
+    color: #616161;
+}
+
+body{
+    font-family: Tahoma;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.2)), url(https://pbs.twimg.com/media/DlDm04jUUAAQ3Ae.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+   
+
+}
+.top-ten{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+    
+}
+.title-top-ten{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main a{
+    float: right;
+    display :inline;
+    text-decoration:none;
+     word-spacing: 20px;
+     padding: 20px;
+     margin: 3px;
+     font-size: 30px;
+}
+.Education{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Education-list{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+}

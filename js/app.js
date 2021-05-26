@@ -2,21 +2,31 @@
 
 let score=0;
 
-let userName = prompt('is my name mohammad?');
-userName=userName.toLowerCase();
-if (userName === 'yes'|| userName === 'y'){
+
+let userName = prompt('what is your name ?');
+
+alert('HELLO ' + userName + ' Welcome Here' )
+alert ('let is go to play guessing game')
+
+
+
+
+
+let myName = prompt('is my name mohammad?');
+myName=myName.toLowerCase();
+if (myName === 'yes'|| myName === 'y'){
     score++;
-    alert(' hollo ' + userName + ' welcome here ' ); 
-console.log(userName);
-}else if (userName==='no' || userName==='no') {
-    alert('no');
+    alert(' yes my name is mohammad ' ); 
+console.log(myName);
+}else if (myName==='no' || myName==='no') {
+    alert('your answer not correct');
 }else{
     alert('answer yes,y  no,n  just please')
 }
 
 
 
-console.log(userName);
+console.log(myName);
 
 
 
@@ -116,7 +126,7 @@ let userMusic= prompt('do I like classic music ?');
 userMusic=userMusic.toLowerCase();
 
 if (userMusic=== 'yes' || userMusic=== 'y'){
-    
+
     alert( 'no i do not'  ); 
 
 }else if(userMusic==='no' || userMusic==='n'){
@@ -129,7 +139,14 @@ if (userMusic=== 'yes' || userMusic=== 'y'){
 
 console.log(userMusic);
 
-alert(`Thank you for your answer your grade is ${score}` )
+
+
+
+
+
+
+
+
 
 
 // let seasons=prompt('which seasons do you like more ? summer .spring , winter ,Autumn' )
@@ -168,5 +185,93 @@ alert(`Thank you for your answer your grade is ${score}` )
 //         console.log('please choose a season just');
 //         break ;
 
-        
 
+
+
+
+
+    let number = prompt('guess what the correct number in 1 to 10 ?');
+    
+    let check = true;
+    
+    for (let i = 0 ; i<4 ; i++){
+    
+      switch(number){
+      case '1':
+      case '2':
+      case '3':        
+      case '4':  
+        alert('too low');
+        break;
+   
+      case '5':
+        check = false;
+        alert('right answer');
+        score++;
+        break;
+   
+        case '6':
+        case '7':
+        case '8':        
+        case '9':  
+        case '10':
+        alert('too high');
+        break;
+  
+      default:
+        alert('Incorecet number try again');
+        break;
+      }
+    
+      if(number !=='5'){
+        number = prompt('guess again');
+      
+      }
+     else{
+        break;
+      }
+    
+    }
+    if (check) {
+      alert('good luck in anthoer time the right answer is 5');
+    }
+
+    // alert(`Thank you for your answer your grade is ${score}` )
+    
+
+    
+
+
+    let myClub= ['realmadrid' , 'milan' , 'chelsea'];
+    let clubs =prompt('can you guess what is the best club for me ? ');
+    let flage = false ;
+    clubs = clubs.toLowerCase();
+    for (let i = 0 ; i < 5 ; i++){
+        for (let j =0 ; j < myClub.length ; j++ ){
+            if (clubs===myClub[j]){
+                alert('you are right');
+                score++;
+                flage = true ;
+                
+                break;
+
+            }
+        }if (flage){
+            break;
+        }else{
+            alert('noooop');
+            clubs =prompt('can you guess what is the best clab for me ? ');
+
+        }
+    }
+
+    alert('my clubs is realmadrid , milan , chelsea');
+    alert('Thank you '  +  userName  + ' We Have A Fun Time your scoer is ' + score )
+
+
+
+    
+
+
+    
+ 
