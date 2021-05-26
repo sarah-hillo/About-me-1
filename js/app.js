@@ -115,7 +115,9 @@ if (userCar=== 'yes' || userCar=== 'y'){
 console.log(userCar);}
 question5();
 
-/*
+
+
+function question6(){
 let userFavour = prompt('do I like astronomy ?');
 userFavour=userFavour.toLowerCase();
 
@@ -130,9 +132,10 @@ if (userFavour=== 'yes' || userFavour=== 'y'){
 }
 
 
-console.log(userFavour);
+console.log(userFavour);}
+question6();
 
-
+function 
 let userMusic= prompt('do I like classic music ?');
 userMusic=userMusic.toLowerCase();
 
