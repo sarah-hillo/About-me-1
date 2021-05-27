@@ -156,14 +156,6 @@ question7();
 
 
 
-
-
-
-
-
-
-
-
 // let seasons=prompt('which seasons do you like more ? summer .spring , winter ,Autumn' )
 // seasons=seasons.toUpperCase()
 // switch (seasons) {
